@@ -1,0 +1,62 @@
+﻿/* A CSS Framework by Mike Stenhouse of Content with Style */
+
+/* NAV */
+div#nav div.wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 13px;
+  padding-bottom: 6px;
+  background: #6293bb url(../images/shadow_9.png) repeat-x bottom left;
+}
+div#nav ul {
+  width: 100%;
+  
+  margin: 0;
+  padding: 0;
+}
+div#nav li {
+  float: left;
+  display: inline;
+  
+  list-style: none;
+  
+  margin: 0;
+  padding: 0 10px;
+  
+  line-height: 1em;
+  background-image: url(../images/line_white_9.gif);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+div#nav li.last {
+  background: none;
+}
+div#nav a,
+div#nav a:link,
+div#nav a:active,
+div#nav a:visited {
+  display: inline-block;
+  /* hide from ie/mac \*/
+  display: block;
+  /* end hide */
+  font-weight: bold;
+  text-decoration: none;
+  
+  margin: 0;
+  padding: 7px 13px;
+  
+  color: white;
+}
+div#nav .subnav a,
+div#nav .subnav a:link,
+div#nav .subnav a:active,
+div#nav .subnav a:visited {
+  display: inline-block;
+  padding: 7px 6px;
+}
+div#nav a:hover, div#nav a.selected {
+  background-color: #3671a5;
+}
+/* END NAV */

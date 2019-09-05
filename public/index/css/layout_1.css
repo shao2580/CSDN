@@ -1,0 +1,138 @@
+﻿/* A CSS Framework by Mike Stenhouse of Content with Style */
+
+/* SITE SPECIFIC LAYOUT */
+body {
+  margin: 0;
+  padding: 0;  
+  text-align: center;
+  background: #fff!important;
+}
+div#page {
+  width: 1015px;
+  
+  margin:  10px auto 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* HEADER */
+div#header {
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: white;
+}
+div#branding {
+  float: left;
+  width: 200px;
+  margin: 1px 0;
+  text-align: left;
+}
+div#search {
+  float: right;
+  width: 49%;
+  
+  margin: 0;
+  padding: 16px 20px 0 0;
+  
+  text-align: right;
+}
+/* END HEADER */
+
+/* CONTENT */
+div#content {
+  width: 100%;
+  margin-top: 35px;
+}
+/* END CONTENT */
+
+/* FOOTER */
+div#footer {
+  color: black;
+  background-color: white;  
+}
+div#footer p {
+  font-size: 0.8em;
+  
+  margin: 0;
+  padding: 15px;
+}
+/* END FOOTER */
+/* END LAYOUT */
+
+
+
+
+/* UL.SUBNAV */
+ul.subnav {
+  margin: 0;
+  padding: 0;
+  
+  font-size: 0.8em;
+  list-style: none;
+}
+ul.subnav li {
+  margin: 0 0 1em 0;
+  padding: 0;
+  list-style: none;
+}
+ul.subnav li a,
+ul.subnav li a:link,
+ul.subnav li a:visited,
+ul.subnav li a:active {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+ul.subnav li a:hover {
+  text-decoration: underline;
+}
+ul.subnav li strong {
+  padding: 0 0 0 12px;
+  background: url("../images/subnav-highlight.gif") left top no-repeat transparent;
+}
+ul.subnav li strong a,
+ul.subnav li strong a:link,
+ul.subnav li strong a:visited,
+ul.subnav li strong a:active {
+  color: white;
+  background-color: black;
+}
+/* END UL.SUBNAV */
+
+
+/* side nav styles */
+.nav_side{margin:0 0 10px 0; border:solid 1px #caccc9; background:#f4f6f3;}
+.nav_side ul{margin:0;}
+.nav_side li{height:37px; overflow:hidden; margin:0 5px; padding:0; border-bottom:solid 1px #e3eaf0; color:#069; font-size:14px; line-height:37px; text-indent:38px;}
+.nav_side li a{display:block; height:37px; color:#069; text-decoration:none;}
+.nav_side li a:hover{color:#ff580a;  text-decoration:none;}
+.nav_side li.last{height: 38px; border-bottom:none;}
+.nav_side li.select{height:38px; margin:0; border-bottom:none; background:url(../images/sidenav_select_bg_1.gif) no-repeat 0 0;}
+.nav_side li.select a{height:38px; color:#fff; font-weight:bold;}
+
+.nav_side #mobile{background:url(../images/icon_sidenav_1.png) no-repeat 5px 3px; _background:url(../images/icon_sidenav_1.gif) no-repeat 5px 3px;}
+.nav_side #web{background:url(../images/icon_sidenav_1.png) no-repeat 5px -49px; _background:url(../images/icon_sidenav_1.gif) no-repeat 5px -49px;}
+.nav_side #architecture{background:url(../images/icon_sidenav_1.png) no-repeat 5px -102px; _background:url(../images/icon_sidenav_1.gif) no-repeat 5px -102px;}
+.nav_side #language{background:url(../images/icon_sidenav_1.png) no-repeat 5px -155px; _background:url(../images/icon_sidenav_1.gif) no-repeat 5px -155px;}
+.nav_side #internet{background:url(../images/icon_sidenav_1.png) no-repeat 5px -206px; _background:url(../images/icon_sidenav_1.gif) no-repeat 5px -206px;}
+.nav_side #opensource{background:url(../images/icon_sidenav_1.png) no-repeat 5px -260px; _background:url(../images/icon_sidenav_1.gif) no-repeat 5px -260px;}
+.nav_side #os{background:url(../images/icon_sidenav_1.png) no-repeat 5px -310px; _background:url(../images/icon_sidenav_1.gif) no-repeat 5px -310px;}
+.nav_side #database{background:url(../images/icon_sidenav_1.png) no-repeat 5px -361px; _background:url(../images/icon_sidenav_1.gif) no-repeat 5px -361px;}
+.nav_side #develop{background:url(../images/icon_sidenav_1.png) no-repeat 5px -412px; _background:url(../images/icon_sidenav_1.gif) no-repeat 5px -412px;}
+.nav_side #industry{background:url(../images/icon_sidenav_1.png) no-repeat 5px -466px; _background:url(../images/icon_sidenav_1.gif) no-repeat 5px -466px;}
+.nav_side #other{background:url(../images/icon_sidenav_1.png) no-repeat 5px -568px; _background:url(../images/icon_sidenav_1.gif) no-repeat 5px -568px;}
+.nav_side #all{background:url(../images/elite_sidenav_1.png) no-repeat 5px -260px; _background:url(../images/elite_sidenav_1.gif) no-repeat 5px -260px;}
+
+.nav_side li.select #mobile{background:url(../images/icon_sidenav_1.png) no-repeat 10px 3px; _background:url(../images/icon_sidenav_1.gif) no-repeat 10px 3px;}
+.nav_side li.select #web{background:url(../images/icon_sidenav_1.png) no-repeat 10px -49px; _background:url(../images/icon_sidenav_1.gif) no-repeat 10px -49px;}
+.nav_side li.select #architecture{background:url(../images/icon_sidenav_1.png) no-repeat 10px -102px; _background:url(../images/icon_sidenav_1.gif) no-repeat 10px -102px;}
+.nav_side li.select #language{background:url(../images/icon_sidenav_1.png) no-repeat 10px -155px; _background:url(../images/icon_sidenav_1.gif) no-repeat 10px -155px;}
+.nav_side li.select #internet{background:url(../images/icon_sidenav_1.png) no-repeat 10px -206px; _background:url(../images/icon_sidenav_1.gif) no-repeat 10px -206px;}
+.nav_side li.select #opensource{background:url(../images/icon_sidenav_1.png) no-repeat 10px -260px; _background:url(../images/icon_sidenav_1.gif) no-repeat 10px -260px;}
+.nav_side li.select #os{background:url(../images/icon_sidenav_1.png) no-repeat 10px -310px; _background:url(../images/icon_sidenav_1.gif) no-repeat 10px -310px;}
+.nav_side li.select #database{background:url(../images/icon_sidenav_1.png) no-repeat 10px -361px; _background:url(../images/icon_sidenav_1.gif) no-repeat 10px -361px;}
+.nav_side li.select #develop{background:url(../images/icon_sidenav_1.png) no-repeat 10px -412px; _background:url(../images/icon_sidenav_1.gif) no-repeat 10px -412px;}
+.nav_side li.select #industry{background:url(../images/icon_sidenav_1.png) no-repeat 10px -466px; _background:url(../images/icon_sidenav_1.gif) no-repeat 10px -466px;}
+.nav_side li.select #other{background:url(../images/icon_sidenav_1.png) no-repeat 10px -568px; _background:url(../images/icon_sidenav_1.gif) no-repeat 10px -568px;}
+.nav_side li.select #all{background:url(../images/elite_sidenav_1.png) no-repeat 10px -259px; _background:url(../images/elite_sidenav_1.gif) no-repeat 10px -259px;}
