@@ -11,11 +11,11 @@
 
     <title> - 主页示例</title>
 
-    <link rel="shortcut icon" href="favicon.ico"> <link href="{{url('apiadmin')}}/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
-    <link href="{{url('apiadmin')}}/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico"> <link href="{{url('admin')}}/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="{{url('admin')}}/css/font-awesome.css?v=4.4.0" rel="stylesheet">
 
-    <link href="{{url('apiadmin')}}/css/animate.css" rel="stylesheet">
-    <link href="{{url('apiadmin')}}/css/style.css?v=4.1.0" rel="stylesheet">
+    <link href="{{url('admin')}}/css/animate.css" rel="stylesheet">
+    <link href="{{url('admin')}}/css/style.css?v=4.1.0" rel="stylesheet">
 
 </head>
 
@@ -604,16 +604,16 @@
         </div>
     </div>
     <!-- 全局js -->
-    <script src="{{url('apiadmin')}}/js/jquery.min.js?v=2.1.4"></script>
-    <script src="{{url('apiadmin')}}/js/bootstrap.min.js?v=3.3.6"></script>
-    <script src="{{url('apiadmin')}}/js/plugins/layer/layer.min.js"></script>
+    <script src="{{url('admin')}}/js/jquery.min.js?v=2.1.4"></script>
+    <script src="{{url('admin')}}/js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="{{url('admin')}}/js/plugins/layer/layer.min.js"></script>
     <!-- Flot -->
-    <script src="{{url('apiadmin')}}/js/plugins/flot/jquery.flot.js"></script>
-    <script src="{{url('apiadmin')}}/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
-    <script src="{{url('apiadmin')}}/js/plugins/flot/jquery.flot.resize.js"></script>
-    <script src="{{url('apiadmin')}}/js/plugins/flot/jquery.flot.pie.js"></script>
+    <script src="{{url('admin')}}/js/plugins/flot/jquery.flot.js"></script>
+    <script src="{{url('admin')}}/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="{{url('admin')}}/js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="{{url('admin')}}/js/plugins/flot/jquery.flot.pie.js"></script>
     <!-- 自定义js -->
-    <script src="{{url('apiadmin')}}/js/content.js"></script>
+    <script src="{{url('admin')}}/js/content.js"></script>
     <!--flotdemo-->
     <script type="text/javascript">
         $(function() {
