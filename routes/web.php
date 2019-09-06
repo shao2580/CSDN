@@ -65,6 +65,7 @@ Route::prefix('/login')->group(function(){
 
 Route::prefix('/user')->middleware(['checkadminlogin'])->group(function(){
     Route::any('list','Admin\UserController@userList');//用户列表
+    Route::get('status','Admin\UserController@userStatus');//更改状态
 });
 
 Route::prefix('/admin')->middleware(['checkadminlogin'])->group(function(){
