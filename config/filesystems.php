@@ -45,7 +45,11 @@ return [
 
         'local' => [
             'driver' => 'local',
+<<<<<<< HEAD
            // 'root' => storage_path('app'),
+=======
+            //'root' => storage_path('app'),
+>>>>>>> origin/zzl-dev
             'root'=>public_path('csdn'), //路径
         ],
 
