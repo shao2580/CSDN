@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Model\Forum;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -22,7 +23,9 @@ class ForumController extends Controller
     //论坛列表
     public function forumList()
     {
-        return view('admin.forum.forumlist');
+        $pageSize = config('app.pageSize');
+        $data = Forum::paginate($pageSize);
+        return view('admin.forum.forumlist',compact('data'));
     }
 
     //论坛修改视图
@@ -38,8 +41,12 @@ class ForumController extends Controller
     }
 
     //论坛删除
-    public function forumDel()
+    public function forumDel(Request $request)
     {
-
+        $f_id = $request->f_id;
+        $res = Forum::where('f_id',$f_id)->delete();
+        if($res){
+            echo "<script>alert('删除成功');location.href='/forum/list';</script>";
+        }
     }
 }

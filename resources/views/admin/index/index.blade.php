@@ -34,8 +34,7 @@
     <div id="wrapper">
         <!--左侧导航开始-->
         <nav class="navbar-default navbar-static-side" role="navigation">
-            <div class="nav-close"><i class="fa fa-times-circle"></i>
-            </div>
+            <div class="nav-close"><i class="fa fa-times-circle"></i></div>
             <div class="sidebar-collapse">
                 <ul class="nav" id="side-menu">
                     <li class="nav-header">
@@ -126,7 +125,6 @@
                             </li>
                         </ul>
                     </li>
-                                  
                 </ul>
             </div>
         </nav>
@@ -135,7 +133,8 @@
         <div id="page-wrapper" class="gray-bg dashbard-1">
             <div class="row border-bottom">
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                    <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-info " href="JavaScript:;"><i class="fa fa-bars"></i> </a>
+                    <div class="navbar-header">
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-info " href="JavaScript:;"><i class="fa fa-bars"></i> </a>
                         <form role="search" class="navbar-form-custom" method="post" action="search_results.html">
                             <div class="form-group">
                                 <input type="text" placeholder="请输入您需要查找的内容 …" class="form-control" name="top-search" id="top-search">
