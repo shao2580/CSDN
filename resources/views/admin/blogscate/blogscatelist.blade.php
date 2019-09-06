@@ -2,7 +2,7 @@
 @section('title', '博客分类列表页')
 @section('content')
 
-<div class="row">
+   <div class="row">
     <div class="col-sm-12">
         <div class="ibox float-e-margins">
             <div class="ibox-title">
@@ -57,63 +57,40 @@
                         <thead>
                             <tr>
 
-                                <th></th>
-                                <th>项目</th>
-                                <th>进度</th>
-                                <th>任务</th>
-                                <th>日期</th>
+                                <th>全选</th>
+                                <th>ID</th>
+                                <th>博客分类名称</th>
+                                <th>分类地址</th>
+                                <th>是否前台显示</th>
+                                <th>创建日期</th>
+                                <th>修改日期</th>
                                 <th>操作</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>
-                                    <input type="checkbox" checked class="i-checks" name="input[]">
-                                </td>
-                                <td>米莫说｜MiMO Show</td>
-                                <td><span class="pie">0.52/1.561</span>
-                                </td>
-                                <td>20%</td>
-                                <td>2014.11.11</td>
-                                <td><a href="table_basic.html#"><i class="fa fa-check text-navy"></i></a>
-                                </td>
-                            </tr>
+                        @if(!empty($data))
+                        @foreach ($data as $k => $v)
                             <tr>
                                 <td>
                                     <input type="checkbox" class="i-checks" name="input[]">
                                 </td>
-                                <td>商家与购物用户的交互试衣应用</td>
-                                <td><span class="pie">6,9</span>
+                                <td>{{$v->c_id}}</td>
+                                <td><span class="pie">{{$v->c_name}}</span>
                                 </td>
-                                <td>40%</td>
-                                <td>2014.11.11</td>
-                                <td><a href="table_basic.html#"><i class="fa fa-check text-navy"></i></a>
+                                <td>{{$v->c_url}}</td>
+                                <td>@if($v->is_show == 1)
+                                        √
+                                    @else
+                                        ×
+                                    @endif</td>
+
+                                <td>{{$v->c_time}}</td>
+                                <td>{{$v->updated_at}}</td>                             
+                                <td><a href="/blogscate/exit?c_id={{$v->c_id}}">修改</a>&nbsp;|&nbsp;<a href="/blogscate/del?c_id={{$v->c_id}}">下架</a>
                                 </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type="checkbox" class="i-checks" name="input[]">
-                                </td>
-                                <td>天狼---智能硬件项目</td>
-                                <td><span class="pie">3,1</span>
-                                </td>
-                                <td>75%</td>
-                                <td>2014.11.11</td>
-                                <td><a href="table_basic.html#"><i class="fa fa-check text-navy"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type="checkbox" class="i-checks" name="input[]">
-                                </td>
-                                <td>线下超市+线上商城+物流配送互联系统</td>
-                                <td><span class="pie">4,9</span>
-                                </td>
-                                <td>18%</td>
-                                <td>2014.11.11</td>
-                                <td><a href="table_basic.html#"><i class="fa fa-check text-navy"></i></a>
-                                </td>
-                            </tr>
+                            </tr>  
+                        @endforeach
+                        @endif
                         </tbody>
                     </table>
                 </div>
@@ -122,6 +99,6 @@
         </div>
     </div>
 
-</div>
+</div> 
 
 @endsection
