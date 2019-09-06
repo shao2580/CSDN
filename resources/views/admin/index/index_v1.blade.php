@@ -237,11 +237,11 @@
                                                         </div>
                                                 </td>
                                                 <td class="project-people">
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a3.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a1.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a2.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a4.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a5.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a3.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a1.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a2.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a4.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a5.jpg"></a>
                                                 </td>
                                                 <td class="project-actions">
                                                     <a href="projects.html#" class="btn btn-white btn-sm"><i class="fa fa-folder"></i> 查看 </a>
@@ -264,9 +264,9 @@
                                                     </div>
                                                 </td>
                                                 <td class="project-people">
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a7.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a6.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a3.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a7.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a6.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a3.jpg"></a>
                                                 </td>
                                                 <td class="project-actions">
                                                     <a href="projects.html#" class="btn btn-white btn-sm"><i class="fa fa-folder"></i> 查看 </a>
@@ -289,8 +289,8 @@
                                                     </div>
                                                 </td>
                                                 <td class="project-people">
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a5.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a3.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a5.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a3.jpg"></a>
                                                 </td>
                                                 <td class="project-actions">
                                                     <a href="projects.html#" class="btn btn-white btn-sm"><i class="fa fa-folder"></i> 查看 </a>
@@ -313,10 +313,10 @@
                                                     </div>
                                                 </td>
                                                 <td class="project-people">
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a2.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a3.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a1.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a7.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a2.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a3.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a1.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a7.jpg"></a>
                                                 </td>
                                                 <td class="project-actions">
                                                     <a href="projects.html#" class="btn btn-white btn-sm"><i class="fa fa-folder"></i> 查看 </a>
@@ -339,7 +339,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="project-people">
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a4.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a4.jpg"></a>
                                                 </td>
                                                 <td class="project-actions">
                                                     <a href="projects.html#" class="btn btn-white btn-sm"><i class="fa fa-folder"></i> 查看 </a>
@@ -362,10 +362,10 @@
                                                     </div>
                                                 </td>
                                                 <td class="project-people">
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a1.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a2.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a4.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a5.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a1.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a2.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a4.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a5.jpg"></a>
                                                 </td>
                                                 <td class="project-actions">
                                                     <a href="projects.html#" class="btn btn-white btn-sm"><i class="fa fa-folder"></i> 查看 </a>
@@ -388,9 +388,9 @@
                                                     </div>
                                                 </td>
                                                 <td class="project-people">
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a7.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a6.jpg"></a>
-                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('apiadmin')}}/img/a3.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a7.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a6.jpg"></a>
+                                                    <a href="projects.html"><img alt="image" class="img-circle" src="{{url('admin')}}/img/a3.jpg"></a>
                                                 </td>
                                                 <td class="project-actions">
                                                     <a href="projects.html#" class="btn btn-white btn-sm"><i class="fa fa-folder"></i> 查看 </a>
