@@ -78,13 +78,12 @@
        <li><a href="index" class="selected">ITeye首页</a></li> 
        <li><a href="blogs">博客</a></li> 
        <li><a href="forums">论坛</a></li> 
-       <li class="last"><a href="answer_list">问答</a></li>
+       <li><a href="answer_list">问答</a></li>
        <li><a href="download_list">下载</a></li>  
        <li><a href="">资讯</a></li> 
-       <li><a href="">精华</a></li> 
-       
+       <li><a href="">精华</a></li>    
        <li><a href="">专栏</a></li> 
-       <li><a href="">群组</a></li> 
+       <li class="last"><a href="">群组</a></li> 
        <div class="login-fr"> 
         <a href="login" class="welcome" title="登录"> 您还未登录! </a>| 
         <a href="login">登录</a>| 
@@ -266,11 +265,11 @@
                 }
             }
 
-            function refreshMore(){
-                if(oList.find(".dl_more").length ==0){
-                    oList.append('<div class="dl_more" style="font-size:14px; color:#0F8AC6; text-align:center;padding-top:10px;">上滑加载更多</div>');
-                }
-            }
+            // function refreshMore(){
+            //     if(oList.find(".dl_more").length ==0){
+            //         oList.append('<div class="dl_more" style="font-size:14px; color:#0F8AC6; text-align:center;padding-top:10px;">上滑加载更多</div>');
+            //     }
+            // }
         })();
     </script>   
  </body>
